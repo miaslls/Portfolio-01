@@ -57,16 +57,16 @@
 
         <main>
 
-            <article class="project-container">
+            <article class="project-container fade">
 
                 <div class="project-img" id="project-img-sims"></div>
 
                 <div class="project-title">
-                    <h2>Dress me Up!</h2>
+                    <h2>Blue Sims</h2>
                 </div>
 
-                <div class="project-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam officia,
-                    inventore explicabo perspiciatis illo quae magnam quasi veritatis deserunt neque.</div>
+                <!-- <div class="project-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam officia,
+                    inventore explicabo perspiciatis illo quae magnam quasi veritatis deserunt neque.</div> -->
 
                 <div class="project-links">
                     <a href="https://miaslls.github.io/BLUE_MOD02_PROJ01/" target="_blank">
@@ -81,7 +81,7 @@
 
             <div class="project-divider"><img src="./assets/IMG/SVG/projects-divider.svg"></div>
 
-            <article class="project-container">
+            <article class="project-container fade">
 
                 <div class="project-img" id="project-img-pokedex"></div>
 
@@ -89,19 +89,21 @@
                     <h2>Pokédex</h2>
                 </div>
 
-                <div class="project-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam officia,
-                    inventore explicabo perspiciatis illo quae magnam quasi veritatis deserunt neque.</div>
+                <!-- <div class="project-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam officia,
+                    inventore explicabo perspiciatis illo quae magnam quasi veritatis deserunt neque.</div> -->
 
                 <div class="project-links">
-                    <div class="project-link-deploy">deploy</div>
-                    <div class="project-link-github">github</div>
+                    <a href="https://blue-dex.herokuapp.com/" target="_blank">
+                        <div class="project-link-deploy">deploy</div>
+                    </a>
+                    <a href="https://github.com/miaslls/BLUE_MOD02_PROJ02" target="_blank">
+                        <div class="project-link-github">github</div>
+                    </a>
                 </div>
 
             </article>
 
-            <div class="project-divider"><img src="./assets/IMG/SVG/projects-divider.svg"></div>
-
-            <article class="project-container">
+            <article class="project-container fade">
 
                 <div class="project-img" id="project-img-miamood"></div>
 
@@ -109,35 +111,53 @@
                     <h2>MiaMood</h2>
                 </div>
 
-                <div class="project-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam officia,
-                    inventore explicabo perspiciatis illo quae magnam quasi veritatis deserunt neque.</div>
+                <!-- <div class="project-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam officia,
+                    inventore explicabo perspiciatis illo quae magnam quasi veritatis deserunt neque.</div> -->
 
                 <div class="project-links">
-                    <div class="project-link-deploy">deploy</div>
-                    <div class="project-link-github">github</div>
+                    <a href="https://miamood.herokuapp.com/" target="_blank">
+                        <div class="project-link-deploy">deploy</div>
+                    </a>
+                    <a href="https://github.com/miaslls/BLUE_MOD02_PROJ03" target="_blank">
+                        <div class="project-link-github">github</div>
+                    </a>
                 </div>
 
             </article>
-
-            <div class="project-divider"><img src="./assets/IMG/SVG/projects-divider.svg"></div>
 
             <article class="project-container">
 
                 <div class="project-img" id="project-img-mialogs"></div>
 
                 <div class="project-title">
-                    <h2>MiaLogs</h2>
+                    <h2>Estudo de CSS</h2>
                 </div>
 
-                <div class="project-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam officia,
-                    inventore explicabo perspiciatis illo quae magnam quasi veritatis deserunt neque.</div>
+                <!-- <div class="project-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam officia,
+                    inventore explicabo perspiciatis illo quae magnam quasi veritatis deserunt neque.</div> -->
 
                 <div class="project-links">
-                    <div class="project-link-deploy">deploy</div>
-                    <div class="project-link-github">github</div>
+                    <a href="https://miaslls.github.io/MiaLogs/" target="_blank">
+                        <div class="project-link-deploy">deploy</div>
+                    </a>
+                    <a href="https://github.com/miaslls/MiaLogs" target="_blank">
+                        <div class="project-link-github">github</div>
+                    </a>
                 </div>
 
             </article>
+
+            <section id="arrows-container">
+
+                <a onclick="changeProject(-1)">
+                    <div class="arrow" id="arrow-left"><img src="./assets/IMG/SVG/arrow-left.svg" alt="back"></div>
+                </a>
+
+                <a onclick="changeProject(1)">
+                    <div class="arrow" id="arrow-right"><img src="./assets/IMG/SVG/arrow-right.svg" alt="next"></div>
+                </a>
+
+            </section>
 
         </main>
 
