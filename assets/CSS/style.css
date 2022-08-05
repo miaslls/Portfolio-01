@@ -81,6 +81,7 @@ header {
   align-items: center;
   position: relative;
   transform: rotate(-5deg);
+  user-select: none;
 }
 
 #name {
@@ -161,12 +162,6 @@ main {
   }
 }
 
-.project-img {
-  width: 500px;
-  height: 290px;
-  opacity: 0.9;
-}
-
 .project-title {
   font-family: six-hands-brush, sans-serif;
   font-size: 24pt;
@@ -216,4 +211,5 @@ main {
 .arrow {
   width: 30px;
   transform: rotate(-90deg);
+  cursor: pointer;
 }
