@@ -142,6 +142,7 @@ main {
 }
 
 .project-container {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -179,12 +180,53 @@ main {
 
 .project-text {
   width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: six-hands-marker, sans-serif;
   font-size: 12pt;
   text-align: justify;
 }
 
+.quote {
+  width: 80%;
+  margin: 30px 0 40px 0;
+  position: relative;
+  opacity: 0.7;
+}
+
+.quote p {
+  font-size: smaller;
+  text-align: justify;
+  font-style: italic;
+}
+
+.quote-detail {
+  width: 95%;
+  font-family: six-hands-condensed, sans-serif;
+  text-align: end;
+}
+
+.quotation-mark {
+  position: absolute;
+  font-family: six-hands-brush, sans-serif;
+  font-size: 50pt;
+}
+
+.quotation-mark-left {
+  top: -40px;
+  left: -30px;
+  transform: rotate(15deg);
+}
+
+.quotation-mark-right {
+  bottom: -30px;
+  right: -30px;
+  transform: rotate(15deg);
+}
+
 .project-links {
+  margin-top: 15px;
   display: flex;
   flex-direction: row;
   gap: 20px;
