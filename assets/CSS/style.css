@@ -1,6 +1,8 @@
 /* ADOBE FONTS */
 @import url('https://use.typekit.net/hld0wlm.css');
 
+/* ❗❗❗ video proportion: 1300x812 */
+
 * {
   margin: 0;
   padding: 0;
@@ -33,7 +35,7 @@ a:hover {
   transform: scale(1.1);
 }
 
-#construction {
+/* #construction {
   display: flex;
   align-items: baseline;
   gap: 20px;
@@ -57,7 +59,7 @@ a:hover {
   font-size: 46pt;
   text-transform: uppercase;
   color: #ffffff;
-}
+} */
 
 #outer-container {
   width: 1000px;
@@ -167,6 +169,7 @@ main {
 .project-title {
   font-family: six-hands-brush, sans-serif;
   font-size: 24pt;
+  user-select: none;
 }
 
 .project-techs {
