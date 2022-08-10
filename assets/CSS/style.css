@@ -35,7 +35,7 @@ a:hover {
   transform: scale(1.1);
 }
 
-/* #construction {
+#construction {
   display: flex;
   align-items: baseline;
   gap: 20px;
@@ -59,7 +59,7 @@ a:hover {
   font-size: 46pt;
   text-transform: uppercase;
   color: #ffffff;
-} */
+}
 
 #outer-container {
   width: 1000px;
