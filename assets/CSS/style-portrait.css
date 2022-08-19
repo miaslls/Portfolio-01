@@ -1,0 +1,87 @@
+@media screen and (orientation: portrait) {
+  body {
+    padding: 30px 0;
+  }
+
+  a:hover {
+    transform: unset;
+  }
+
+  #construction {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #construction-text {
+    font-size: 30pt;
+  }
+
+  #outer-container {
+    width: 100%;
+    padding: 15px;
+  }
+
+  header {
+    flex-direction: column;
+    height: unset;
+  }
+
+  #name {
+    font-size: 55pt;
+  }
+
+  #page-title-landscape,
+  #title-img-landscape {
+    display: none;
+  }
+
+  #social-links {
+    flex-direction: column;
+    gap: unset;
+    bottom: 20px;
+  }
+
+  .social-link-icon {
+    width: 20px;
+  }
+
+  .social-link-text {
+    font-size: 22pt;
+  }
+
+  #arrows-container {
+    width: calc(90% - 30px);
+    padding: 20px 0;
+    position: relative;
+    top: unset;
+  }
+
+  .arrow {
+    width: 20px;
+  }
+
+  #title-portrait-container {
+    width: calc(100% - 40px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #page-title-portrait {
+    font-family: six-hands-marker, sans-serif;
+    font-size: 9pt;
+    text-align: center;
+  }
+
+  #title-img-portrait {
+    width: 120px;
+    position: relative;
+    bottom: 5px;
+  }
+
+  .project-video {
+    width: 90%;
+  }
+}

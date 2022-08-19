@@ -27,11 +27,11 @@
 
                 <div id="name">Camila Salles</div>
 
-                <div id="page-title">
+                <div id="page-title-landscape">
                     <h1>PROJETOS</h1>
                 </div>
 
-                <div id="title-img"><img src="./assets/IMG/SVG/marker-stroke.svg"></div>
+                <div id="title-img-landscape"><img src="./assets/IMG/SVG/marker-stroke.svg"></div>
 
             </section>
 
@@ -59,10 +59,32 @@
 
         <main>
 
+            <section id="arrows-container">
+
+                <a onclick="changeProject(-1)">
+                    <div class="arrow" id="arrow-left"><img src="./assets/IMG/SVG/arrow-left.svg" alt="back"></div>
+                </a>
+
+                <div id="title-portrait-container">
+
+                    <div id="page-title-portrait">
+                        <h1>PROJETOS</h1>
+                    </div>
+
+                    <div id="title-img-portrait"><img src="./assets/IMG/SVG/marker-stroke.svg"></div>
+
+                </div>
+
+                <a onclick="changeProject(1)">
+                    <div class="arrow" id="arrow-right"><img src="./assets/IMG/SVG/arrow-right.svg" alt="next">
+                    </div>
+                </a>
+            </section>
+
             <article class="project-container fade">
 
                 <div class="project-video">
-                    <video controls preload width="500px" src="./assets/VIDEO/MiaLogs.mp4"></video>
+                    <video controls preload src="./assets/VIDEO/MiaLogs.mp4"></video>
                 </div>
 
                 <div class="project-title">
@@ -90,7 +112,7 @@
             <article class="project-container fade">
 
                 <div class="project-video">
-                    <video controls preload width="500px" src="./assets/VIDEO/MiaMood.mp4"></video>
+                    <video controls preload src="./assets/VIDEO/MiaMood.mp4"></video>
                 </div>
 
                 <div class="project-title">
@@ -138,7 +160,7 @@
             <article class="project-container fade">
 
                 <div class="project-video">
-                    <video controls preload width="500px" src="./assets/VIDEO/BLUE-dex.mp4"></video>
+                    <video controls preload src="./assets/VIDEO/BLUE-dex.mp4"></video>
                 </div>
 
                 <div class="project-title">
@@ -165,7 +187,7 @@
             <article class="project-container fade">
 
                 <div class="project-video">
-                    <video controls preload width="500px" src="./assets/VIDEO/BLUEsims.mp4"></video>
+                    <video controls preload src="./assets/VIDEO/BLUEsims.mp4"></video>
                 </div>
 
                 <div class="project-title">
@@ -192,7 +214,7 @@
             <article class="project-container fade">
 
                 <div class="project-video">
-                    <video controls preload width="500px" src="./assets/VIDEO/MOD1-proj-final.mp4"></video>
+                    <video controls preload src="./assets/VIDEO/MOD1-proj-final.mp4"></video>
                 </div>
 
                 <div class="project-title">
@@ -216,18 +238,6 @@
                 </div>
 
             </article>
-
-            <section id="arrows-container">
-
-                <a onclick="changeProject(-1)">
-                    <div class="arrow" id="arrow-left"><img src="./assets/IMG/SVG/arrow-left.svg" alt="back"></div>
-                </a>
-
-                <a onclick="changeProject(1)">
-                    <div class="arrow" id="arrow-right"><img src="./assets/IMG/SVG/arrow-right.svg" alt="next"></div>
-                </a>
-
-            </section>
 
         </main>
 
