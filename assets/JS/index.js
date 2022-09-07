@@ -25,3 +25,15 @@ function showProjects(n) {
 
   projects[projectIndex - 1].style.display = 'flex';
 }
+
+// 📌
+
+document.addEventListener('keydown', function onEvent(e) {
+  if (e.key === 'ArrowLeft') {
+    changeProject(-1);
+    console.log('left');
+  } else if (e.key === 'ArrowRight') {
+    changeProject(1);
+    console.log('right');
+  }
+});
