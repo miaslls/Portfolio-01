@@ -265,3 +265,8 @@ main {
   font-size: 28pt;
   text-transform: uppercase;
 }
+
+.project-link-github span {
+  text-transform: lowercase;
+  font-size: 20pt;
+}
