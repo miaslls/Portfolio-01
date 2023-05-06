@@ -190,7 +190,8 @@ main {
   width: 500px;
 }
 
-.project-video video {
+.project-video video,
+.project-video img {
   width: 100%;
 }
 
