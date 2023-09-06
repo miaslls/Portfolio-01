@@ -70,6 +70,33 @@ a:hover {
   padding: 30px 50px;
   background-color: #f5f5f5;
   background: linear-gradient(120deg, #f5f5f5 0%, #bbbbbb 35%, #888888 100%);
+  position: relative;
+}
+
+.language-selection-container {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.language-option-img {
+  transition: all 0.25s;
+  width: 24px;
+  filter: saturate(80%);
+}
+
+.language-option-img:hover {
+  transform: scale(1.1);
+}
+
+.inactive {
+  filter: saturate(60%) opacity(50%);
+}
+
+.inactive:hover {
+  filter: saturate(80%) opacity(100%);
 }
 
 header {

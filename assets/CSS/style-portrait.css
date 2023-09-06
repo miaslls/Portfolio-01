@@ -1,6 +1,7 @@
 @media screen and (orientation: portrait) {
   a:hover,
-  .social-link:hover {
+  .social-link:hover,
+  .language-option-img:hover {
     transform: unset;
   }
 
@@ -16,6 +17,14 @@
   #outer-container {
     width: 100%;
     padding: 15px;
+  }
+
+  .language-selection-container {
+    gap: 5px;
+  }
+
+  .language-option-img {
+    width: 20px;
   }
 
   header {
