@@ -9,20 +9,20 @@
   border: 0;
   box-sizing: border-box;
   outline: none;
+  user-select: none;
 
   /* border: #9a9a9a 1px dotted; */
 }
 
 body {
   width: 100vw;
-  padding: 50px 0;
   display: flex;
   flex-direction: column;
-  gap: 50px;
   align-items: center;
   overflow-x: hidden;
   background: #282828;
   color: #000000;
+  gap: 10px;
 }
 
 a {
@@ -32,7 +32,11 @@ a {
 }
 
 a:hover {
-  transform: scale(1.1);
+  transform: scale(1.075);
+}
+
+.social-link:hover {
+  transform: scale(1.05);
 }
 
 #construction {
@@ -47,16 +51,16 @@ a:hover {
 }
 
 #warning {
-  width: 50px;
+  width: 25px;
 }
 
 #config {
-  width: 40px;
+  width: 20px;
 }
 
 #construction-text {
   font-family: six-hands-condensed, sans-serif;
-  font-size: 46pt;
+  font-size: 23pt;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -83,7 +87,6 @@ header {
   align-items: center;
   position: relative;
   transform: rotate(-5deg);
-  user-select: none;
 }
 
 #name {
@@ -198,7 +201,6 @@ main {
 .project-title {
   font-family: six-hands-brush, sans-serif;
   font-size: 24pt;
-  user-select: none;
 }
 
 .project-techs {

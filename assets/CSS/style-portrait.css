@@ -1,21 +1,16 @@
 @media screen and (orientation: portrait) {
-  body {
-    padding: 0;
-    gap: unset;
-  }
-
-  a:hover {
+  a:hover,
+  .social-link:hover {
     transform: unset;
   }
 
   #construction {
     width: 100%;
-    align-items: center;
     justify-content: center;
   }
 
   #construction-text {
-    font-size: 30pt;
+    font-size: 20pt;
   }
 
   #outer-container {
@@ -85,5 +80,25 @@
 
   .project-video {
     width: 90%;
+  }
+
+  .project-title {
+    font-size: 20pt;
+  }
+
+  .project-techs {
+    font-size: 12pt;
+  }
+
+  .project-text {
+    font-size: 11pt;
+  }
+
+  .project-links {
+    font-size: 24pt;
+  }
+
+  .project-link-github span {
+    font-size: 18pt;
   }
 }
